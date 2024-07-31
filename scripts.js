@@ -41,7 +41,7 @@ function colors(word) {
 			retVal += 'g' ;
 		} else if (answer.includes(word[i])) {
 			retVal += 'y' ;
-			} else {
+		} else {
 			retVal += 'r' ; // for red because I forgot what colors wordle used.
 		}
 	}
